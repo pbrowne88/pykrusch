@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pykrusch"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
   { name="Pierson Browne", email="pbrowne@uwaterloo.ca"},
 ]
@@ -20,7 +20,8 @@ dependencies = [
   "numpy",
   "pytensor",
   "matplotlib",
-  "pillow"
+  "pillow",
+  "pydot"
 ]
 
 [project.scripts]
