@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pykrusch"
+version = "0.1.1"
+authors = [
+  { name="Pierson Browne", email="pbrowne@uwaterloo.ca"},
+]
+description = "A python package for visualizing Bayesian model structure."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "click",
+  "pymc",
+  "pygraphviz",
+  "arviz",
+  "scipy",
+  "numpy",
+  "pytensor",
+  "matplotlib",
+  "pillow"
+]
+
+[project.scripts]
+pykrusch = "pykrusch.main:main"
