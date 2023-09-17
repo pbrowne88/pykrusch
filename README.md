@@ -56,7 +56,7 @@ Doing so will produce a visualization of the model in the current working direct
 
 ## Installation Prerequisites
 
-Aside from an up-to-date installation of `python` and `pip` (installation instructions for which can be found [here](https://wiki.python.org/moin/BeginnersGuide/Download)), the `pykrusch` package depends on `graphviz`, which must be installed before attempting to install `pykrusch`. Installation instructions for `graphviz` can be found at the [GraphViz installation instructions page.](https://pygraphviz.github.io/documentation/stable/install.html#windows-install)
+The `pykrusch` package depends on `graphviz`, which must be installed before attempting to install `pykrusch`. Installation instructions for `graphviz` can be found at the [GraphViz installation instructions page.](https://pygraphviz.github.io/documentation/stable/install.html#windows-install)
 
 
 ## Installation
