@@ -82,7 +82,7 @@ from pykrusch import krusch
 krusch(model)
 ```
 
-`pykrusch` will create a visualization of the Bayesian GLM it is supplied with, outputting the result as `krusch.png` into the working directory. By altering the `outname` parameter, one can change the location, name, and format of the image output.^[At this time, `png` is the only supported image type. Others may or may not function properly.] For example:
+`pykrusch` will create a visualization of the Bayesian GLM it is supplied with, outputting the result as `krusch.png` into the working directory. By altering the `outname` parameter, one can change the location, name, and format of the image output (at this time, `png` is the only supported image type; others may or may not function properly). For example:
 
 ```python
 krusch(model, outname="img/simple_model.png")
@@ -113,7 +113,7 @@ Operating in this mode, `pykrusch` assumes that the name of the model in the spe
 pykrusch simple_model.py -n simple_model
 ```
 
-By default, `pykrusch` produces an output image named `krusch.png`. If you would like `pykrusch` to give the output image a different name, you can use the `--outname`/`-o` argument:^[As mentioned above, `pykrusch` currently only supports the use of `png` images as output. Most other formats will not work, and those that do may not appear exactly as the `png` format does.]
+By default, `pykrusch` produces an output image named `krusch.png`. If you would like `pykrusch` to give the output image a different name, you can use the `--outname`/`-o` argument:
 
 ```bash
 pykrusch simple_model.py -o model_image.png
